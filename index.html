@@ -375,11 +375,11 @@
                     <!-- Contact Form (Visual Only) -->
                     <form class="space-y-4" onsubmit="event.preventDefault(); alert('Your message has been sent. One of our representatives will get back to you');">
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                            <input type="text" placeholder="Your Name" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-brand-gold focus:ring-2 focus:ring-brand-gold/50 outline-none transition">
-                            <input type="text" placeholder="Phone Number" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-brand-gold focus:ring-2 focus:ring-brand-gold/50 outline-none transition">
+                            <input type="text" required placeholder="Your Name" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-brand-gold focus:ring-2 focus:ring-brand-gold/50 outline-none transition">
+                            <input type="text" required placeholder="Phone Number" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-brand-gold focus:ring-2 focus:ring-brand-gold/50 outline-none transition">
                         </div>
-                        <input type="email" placeholder="Email Address" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-brand-gold focus:ring-2 focus:ring-brand-gold/50 outline-none transition">
-                        <select class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-brand-gold focus:ring-2 focus:ring-brand-gold/50 outline-none transition text-gray-500">
+                        <input type="email" required placeholder="Email Address" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-brand-gold focus:ring-2 focus:ring-brand-gold/50 outline-none transition">
+                        <select class="w-full px-4 py-3 required rounded-lg border border-gray-300 focus:border-brand-gold focus:ring-2 focus:ring-brand-gold/50 outline-none transition text-gray-500">
                             <option>Service Interested In</option>
                             <option>Electrical Installation</option>
                             <option>CCTV Systems</option>
@@ -387,7 +387,7 @@
                             <option>Electric Fencing</option>
                             <option>Smart Home</option>
                         </select>
-                        <textarea rows="4" placeholder="How can we help you?" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-brand-gold focus:ring-2 focus:ring-brand-gold/50 outline-none transition"></textarea>
+                        <textarea rows="4" required placeholder="How can we help you?" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-brand-gold focus:ring-2 focus:ring-brand-gold/50 outline-none transition"></textarea>
                         <button type="submit" class="w-full bg-brand-blue text-white font-bold py-4 rounded-lg hover:bg-slate-800 transition shadow-lg">
                             Send Message
                         </button>
